@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbarContainer {
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    font-family: "Bebas Neue", serif;
+    background-color: #000000;
+    height: 96px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 200px;
+}
+
+.navbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbarLink {
+    cursor: pointer;
+    color: #D2D7D9;
+}
+
+.navbarLinksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.mobileNavbarItems {
+    display: none;
+}
+
+.mobileNavbarBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.drawer {
+    font-family: "Bebas Neue", serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    padding: 3em;
+    background-color: black;
+    font-size: xx-large;
+    gap: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    .navbarItems {
+        display: none;
+    }
+
+    .mobileNavbarItems {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+a:after {
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+a:hover:after {
+    opacity: 1;
+}
