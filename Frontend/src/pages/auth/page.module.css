@@ -1,0 +1,38 @@
+.authContainer a {
+ font-family: Arial;
+}
+
+.allPage {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(92, 92, 92);
+    padding: 2em;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.btnSwitch {
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btnSwitch:hover {
+    text-decoration: underline;
+}
