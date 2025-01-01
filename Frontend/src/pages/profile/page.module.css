@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+}
+.profileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em 2em 0;
+    padding: 0 10px 1.5em;
+    border-bottom: 1px solid black;
+
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.userData {
+    display: flex;
+    flex-direction: column;
+}
+
+.userData p {
+    font-size: 14px;
+}
+
+.smileLogo {
+    font-size: 40px;
+}
+
+.btnLogout {
+    cursor: pointer;
+    font-family: "Bebas Neue", serif;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 5px 14px;
+    border-radius: 4px;
+}
+
+.btnLogout:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.ordersContent {
+    padding: 0 10px 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em 2em;
+}
+
+.ordersContainer{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.orderContainer{
+    padding: 1em 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 5px rgb(44, 44, 44);
+}
+
+.orderData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
