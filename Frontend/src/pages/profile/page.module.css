@@ -78,3 +78,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+    .ordersContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .profileContainer {
+        flex-direction: column;
+        gap: 1em;
+    }
+}

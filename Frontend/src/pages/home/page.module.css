@@ -1,0 +1,61 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+.foodSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    background-color: #eeeeee;
+    padding: 2em;
+    border-radius: 2em;
+    border: 1px solid black;
+}
+
+.foodSection div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    text-align: center;
+}
+
+.socialButtonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2em;
+}
+
+.socialButton {
+    cursor: pointer;
+    font-family: "Bebas Neue", serif;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 5px 14px;
+    border-radius: 4px;
+    font-size: large;
+}
+
+@media screen and (max-width: 1000px) {
+    .foodSection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .foodSection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .socialButtonsContainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

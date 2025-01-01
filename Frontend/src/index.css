@@ -7,3 +7,8 @@
 #root {
   font-size: x-large;
 }
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}

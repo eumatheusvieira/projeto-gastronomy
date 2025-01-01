@@ -5,7 +5,7 @@
         "available":false,
         "description":"Fresh squid slowly cooked in a stew with fresh peas and tomatoes reveal an explosion of flavors that will make you come back for another bite!",
         "ingredients":["Fresh squid","Fresh peas","Tomatoes"],
-        "imgUrl":"/imgs/plates/squidStewwithPeas.png",
+        "imgUrl":"/plates/squidStewwithPeas.png",
         "category":"First"
     },
     {
@@ -14,7 +14,7 @@
         "available":true,
         "description":"Our homemade tortellini, filled with meat, float in a warm chicken broth, bringing you the comfort and warmth of real Italian cuisine!",
         "ingredients":["Homemade tortellini","Chicken broth"],
-        "imgUrl":"/imgs/plates/tortellini.png",
+        "imgUrl":"/plates/tortellini.png",
         "category":"First"
     },
     {
@@ -23,7 +23,7 @@
         "available":true,
         "description":"A fresh mixed salad with cooked shrimp, seasonal vegetables, and a secret dressing that will make your lunch or dinner shine!",
         "ingredients":["Cooked shrimp","Seasonal vegetables","Salad dressing"],
-        "imgUrl":"/imgs/plates/shrimpandVegetableSalad.png",
+        "imgUrl":"/plates/shrimpandVegetableSalad.png",
         "category":"Side"
     },
     {
@@ -32,7 +32,7 @@
         "available":true,
         "description":"A fresh seafood salad with mixed seafood, dressed with the liquid gold of extra virgin olive oil, will take you on a taste journey you will always remember!",
         "ingredients":["Mixed seafood","Extra virgin olive oil"],
-        "imgUrl":"/imgs/plates/seafoodSalad.png",
+        "imgUrl":"/plates/seafoodSalad.png",
         "category":"Appetizer"
     },
     {
@@ -41,7 +41,7 @@
         "available":true,
         "description":"Layers of egg pasta interspersed with a rich minced meat sauce and a fluffy béchamel sauce. Lasagna Bolognese will make you feel at home!",
         "ingredients":["Béchamel sauce","Minced meat sauce","Egg pasta","Basil"],
-        "imgUrl":"/imgs/plates/lasagna.png",
+        "imgUrl":"/plates/lasagna.png",
         "category":"First"
     },
     {
@@ -50,7 +50,7 @@
         "available":true,
         "description":"Freshly baked whole grain bread, crispy on the outside and soft on the inside, perfect to enjoy with every dish!",
         "ingredients":["Whole grain flour","Water","Yeast","Salt"],
-        "imgUrl":"/imgs/plates/bread.png",
+        "imgUrl":"/plates/bread.png",
         "category":"Other"
     },
     {
@@ -58,7 +58,7 @@
         "available":true,
         "category":"Second",
         "description":"Soft ground meatballs, immersed in a tomato and basil sauce, will make you say 'Mamma mia!' after every bite!",
-        "imgUrl":"/imgs/plates/meatBalls.png",
+        "imgUrl":"/plates/meatBalls.png",
         "ingredients":["Ground meat","Tomato sauce","Basil", "Butter"],
         "name":"Meatballs in Tomato Sauce",
         "price":11.99
@@ -71,7 +71,7 @@
         "available":true,
         "name":"Smoked Swordfish with Seared Vegetables",
         "ingredients":["Smoked swordfish","Seared vegetables","Sesame seeds"],
-        "imgUrl":"/imgs/plates/swordfish.png"
+        "imgUrl":"/plates/swordfish.png"
     },
     {
         "name":"Grilled Salmon",
@@ -79,7 +79,7 @@
         "available":true,
         "description":"A delicious grilled fresh salmon fillet, accompanied by a side of mixed vegetables that will make your palate happy!",
         "ingredients":["Salmon fillet","Mixed vegetables"],
-        "imgUrl":"/imgs/plates/grilledSalmon.png",
+        "imgUrl":"/plates/grilledSalmon.png",
         "category":"Second"
     }
 ]
