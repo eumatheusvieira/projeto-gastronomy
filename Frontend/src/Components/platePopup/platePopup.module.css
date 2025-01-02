@@ -1,0 +1,37 @@
+.popupContainer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.ingredients {
+    color: rgb(102, 102, 102);
+}
+
+.popupContainer img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.popupContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+
+}
+
+.popupContent button {
+    cursor: pointer;
+    font-family: "Bebas Neue", serif;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 5px 14px;
+    border-radius: 4px;
+}
+
+.popupContent button:hover {
+    background-color: rgb(36, 36, 36);
+}

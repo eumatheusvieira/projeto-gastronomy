@@ -1,9 +1,11 @@
 import { useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { LuSmile } from 'react-icons/lu'
+import { Link } from "react-router-dom"
 import authServices from "../../services/auth"
 import orderServices from "../../services/order"
 import styles from './page.module.css'
+import Loading from "../loading/page"
 
 export default function Profile() {
     const { logout } = authServices()
@@ -21,7 +23,7 @@ export default function Profile() {
     }, [authData, refetchOrders])
 
     if(orderLoading) {
-        return <h1>Loading...</h1>}
+        return(<Loading />)}
 
 
     const handleLogout = () => { 
@@ -66,7 +68,8 @@ export default function Profile() {
                     </div>
                 :
                     <div>
-                        <h1>You don't have orders yet!</h1>
+                        <p>You don't have orders yet!</p>
+                        <Link to={'/plates'} className={styles.link} >Click here to see our specialities!</Link>
                     </div>
                 }           
             </div>

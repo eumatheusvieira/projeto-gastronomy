@@ -11,4 +11,21 @@
 main {
   max-width: 1280px;
   margin: 0 auto;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Bebas Neue", serif;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 5px 14px;
+  border-radius: 4px;
+  max-width: 300px;
+}
+
+button:hover {
+  background-color: rgb(36, 36, 36);
 }

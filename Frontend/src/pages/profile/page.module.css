@@ -40,10 +40,20 @@ body {
     font-size: 30px;
     padding: 5px 14px;
     border-radius: 4px;
+    width: 200px;
 }
 
 .btnLogout:hover {
     background-color: rgb(36, 36, 36);
+}
+
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: rgb(51, 51, 51);
 }
 
 .ordersContent {
