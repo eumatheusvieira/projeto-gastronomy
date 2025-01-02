@@ -71,11 +71,9 @@ body {
 }
 
 .orderContainer{
-    padding: 1em 2px;
+    padding: 1em 1em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border: solid 1px black;
     border-radius: 20px;
     background-color: rgb(243, 243, 243);
@@ -85,8 +83,6 @@ body {
 .orderData {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 @media screen and (max-width: 800px) {

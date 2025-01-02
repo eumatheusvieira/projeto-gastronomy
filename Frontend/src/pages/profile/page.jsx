@@ -55,10 +55,10 @@ export default function Profile() {
                         {ordersList.map((order) => (
                             <div key={order._id} className={styles.orderContainer}>
                                 <p>{order.pickupStatus}</p>
-                                <p>{order.pickupTime}</p>
+                                <h3>{order.pickupTime}</h3>
                                 {order.orderItems.map((item) => (
                                     <div key={item._id} className={styles.orderData}>
-                                        <p><strong>{item.itemDetails[0].name}</strong></p>
+                                        <h2>{item.itemDetails[0].name}</h2>
                                         <p>QUANTITY: <strong>{item.quantity}</strong></p>
                                     </div>    
                                 ))}
