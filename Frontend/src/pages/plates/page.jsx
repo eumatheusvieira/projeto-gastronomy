@@ -40,12 +40,15 @@ export default function Plates() {
 
     return (
         <>
-            <div>
-                {platesList.map((plate) => (
-                    <div key={plate._id} className={styles.cardContainer} onClick={() => { handlePlateSelected(plate) }}>
-                        <PlateCard plateData={plate} />
-                    </div>
-                ))}
+            <div className={styles.allPageContainer}>
+                <h1>Our Plates:</h1>
+                <div className={styles.pageContainer}>
+                    {platesList.map((plate) => (
+                        <div key={plate._id} className={styles.cardContainer} onClick={() => { handlePlateSelected(plate) }}>
+                            <PlateCard plateData={plate} />
+                        </div>
+                    ))}
+                </div>
             </div>
 
             {plateSelected && (
