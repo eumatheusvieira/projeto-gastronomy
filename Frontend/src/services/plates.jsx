@@ -5,7 +5,7 @@ export default function platesServices() {
     const [refetchPlates, setRefetchPlates] = useState(true)
     const [platesList, setPlatesList] = useState([])
 
-    const url = 'http://localhost:3000/plates'
+    const url = 'https://projeto-gastronomy-backend.onrender.com/plates'
 
     const getAvailablePlates = () => {
         setPlatesLoading(true)

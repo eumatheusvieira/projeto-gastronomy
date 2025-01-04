@@ -5,7 +5,7 @@ export default function orderServices() {
     const [refetchOrders, setRefetchOrders] = useState(true)
     const [ordersList, setOrdersList] = useState([])
 
-    const url = 'http://localhost:3000/orders'
+    const url = 'https://projeto-gastronomy-backend.onrender.com/orders'
 
     const getUserOrders = (userId) => {
         setOrderLoading(true)
